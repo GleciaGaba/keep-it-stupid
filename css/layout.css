@@ -1,0 +1,179 @@
+
+li{
+    list-style: none;
+}
+
+ body {
+   
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-size: 1rem;
+    
+   
+   
+}
+
+header{
+   min-width: 70%;
+   display: flex;
+   justify-content:space-between;
+
+
+}
+
+img{
+    width: 10%;
+   
+}
+
+
+
+
+header nav:last-of-type{
+  
+    margin-left: auto;
+    padding-right: 0;
+
+}
+
+
+
+header ul{
+   display: flex;
+   
+   
+ 
+}
+
+#first{
+    padding-left: 0;
+}
+#second{
+    padding-right: 0;
+}
+
+header li::after {
+    content:"|";
+    padding: 0 0.188rem;
+}
+
+header li:last-of-type::after {
+    content: initial;
+   
+
+}
+
+
+main{
+  min-width:70%;
+   
+}
+
+form{
+   
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin: 7% 12%;
+  
+  
+
+}
+
+form input{
+
+    margin-bottom: 0.5rem;
+   
+
+}
+
+form button{
+ margin-top: 0.75rem;
+ padding: 0.15rem;
+
+}
+
+
+footer {
+    min-width: 70%;
+
+}
+
+footer nav{
+
+    display: flex;
+    
+
+}
+footer ul{
+    padding-left: 0;
+    padding-right: 2.5rem;
+}
+
+p{  
+    text-align: center;
+}
+
+@media screen and (max-device-width: 1024px){
+    body {
+   
+        
+        font-size: 0.65rem;
+        
+       
+       
+    }
+   
+   
+    header{
+        min-width: 70%;
+      
+     }
+     
+     img{
+         width: 8%;
+        
+     }
+     
+     
+ 
+     main{
+       min-width:70%;
+        
+     }
+     
+     form{
+      
+        margin: 7% 12%;
+
+     }
+     
+     form input{
+     
+         margin-bottom: 0.5rem;
+        
+     
+     }
+     
+     form button{
+      margin-top: 0.75rem;
+      padding: 0.15rem;
+     
+     }
+     
+     
+     footer {
+         min-width: 70%;
+     
+     }
+     
+    
+     footer ul{
+         padding-left: 0;
+         padding-right: 2.5rem;
+     }
+     
+     
+
+}
